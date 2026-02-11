@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUNE'S STORE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=Geist:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Shantell+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">JUNE'S</div>
+        <div class="nav-links">
+            <a class="nav-link" href="">Perfumes</a>
+            <a class="nav-link" href="">Novedades</a>
+            <a class="nav-link" href="">Marcas</a>
+            <a class="nav-link" href="">Regalos</a>
+        </div>
+        <div class="nav-actions">
+           <input type="text" placeholder="Buscar productos..." class="search-input" aria-label="Buscar">
+          <div data-media-type="banani-button" data-action="search">
+            <div class="icon-conteiner">
+              <iconify-icon
+                icon="lucide:search"
+                style="font-size: 20px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+          <div data-media-type="banani-button">
+            <div class="icon-conteiner">
+              <iconify-icon
+                icon="lucide:user"
+                style="font-size: 20px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+          <div class="icon-conteiner">
+              <iconify-icon
+                icon="lucide:shopping-bag"
+                style="font-size: 20px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+          <span class="hero-badge">Nueva Colección 2026</span>
+          <h1 class="hero-title">
+            Descubre la fragancia que cuenta tu historia
+          </h1>
+          <p class="hero-subtitle">
+            Explora nuestra selección exclusiva de perfumes de nicho y marcas
+            icónicas. Encuentra el aroma perfecto para cada momento.
+          </p>
+          <div style="display: flex">
+            <div class="btn btn-primary" data-media-type="banani-button">
+              Ver Catálogo
+            </div>
+            <div class="btn btn-outline" data-media-type="banani-button">
+              Sobre Nosotros
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            data-aspect-ratio="1:1"
+            data-query="luxury perfume bottle elegant photography minimalist high end"
+            src="https://storage.googleapis.com/banani-generated-images/generated-images/7ca3bdd8-4b6d-4e05-b8ae-2f7573e3869d.jpg"
+            alt="Luxury Perfume"
+          />
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <div
+              style="
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:truck"
+                style="font-size: 24px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+          <h3 class="feature-title">Envío Gratuito</h3>
+          <p class="feature-desc">
+            En todos los pedidos superiores a 150 PEN dentro de la península.
+          </p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <div
+              style="
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:shield-check"
+                style="font-size: 24px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+          <h3 class="feature-title">100% Auténtico</h3>
+          <p class="feature-desc">
+            Garantizamos la originalidad de todos nuestros productos.
+          </p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <div
+              style="
+                width: 24px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:gift"
+                style="font-size: 24px; color: var(--foreground)"
+              ></iconify-icon>
+            </div>
+          </div>
+          <h3 class="feature-title">Muestras Gratis</h3>
+          <p class="feature-desc">
+            Recibe 3 muestras exclusivas con cada compra realizada.
+          </p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Los Más Vendidos</h2>
+            <p class="section-subtitle">
+              Nuestras fragancias favoritas elegidas por clientes como tú.
+            </p>
+          </div>
+          <div
+            class="btn btn-outline"
+            style="height: 40px; font-size: 14px; margin: 0"
+            data-media-type="banani-button"
+          >
+            Ver todo
+          </div>
+        </div>
+        <div class="product-grid">
+          <div class="product-card" data-media-type="banani-button">
+            <div class="product-image">
+              <img
+                data-aspect-ratio="3:4"
+                data-query="chanel no 5 perfume bottle elegant studio shot"
+                src="https://storage.googleapis.com/banani-generated-images/generated-images/14883225-389d-48bf-b84e-11587a408649.jpg"
+                alt="Perfume"
+              />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Chanel</span>
+              <h3 class="product-name">N°5 Eau de Parfum</h3>
+              <div class="product-price">460,00 PEN</div>
+            </div>
+          </div>
+          <div class="product-card" data-media-type="banani-button">
+            <div class="product-image">
+              <img
+                data-aspect-ratio="3:4"
+                data-query="dior sauvage perfume bottle dark background studio shot"
+                src="https://storage.googleapis.com/banani-generated-images/generated-images/9e0be46d-4316-4ab7-9a38-08338521dda0.jpg"
+                alt="Perfume"
+              />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Dior</span>
+              <h3 class="product-name">Sauvage Elixir</h3>
+              <div class="product-price">379,00 PEN</div>
+            </div>
+          </div>
+          <div class="product-card" data-media-type="banani-button">
+            <div class="product-image">
+              <img
+                data-aspect-ratio="3:4"
+                data-query="ysl libre perfume bottle gold accents studio shot"
+                src="https://storage.googleapis.com/banani-generated-images/generated-images/8b0690e1-2cc1-4a66-b2ba-4360c5c6a8f3.jpg"
+                alt="Perfume"
+              />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Yves Saint Laurent</span>
+              <h3 class="product-name">Libre Intense</h3>
+              <div class="product-price">331,00 PEN</div>
+            </div>
+          </div>
+          <div class="product-card" data-media-type="banani-button">
+            <div class="product-image">
+              <img
+                data-aspect-ratio="3:4"
+                data-query="tom ford black orchid perfume bottle luxury studio shot"
+                src="https://storage.googleapis.com/banani-generated-images/generated-images/a6169beb-528b-4fa8-849f-abbcb9d26c7d.jpg"
+                alt="Perfume"
+              />
+            </div>
+            <div class="product-info">
+              <span class="product-brand">Tom Ford</span>
+              <h3 class="product-name">Black Orchid</h3>
+              <div class="product-price">489,00 PEN</div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections">
+        <div class="collection-card" data-media-type="banani-button">
+          <div class="collection-bg">
+            <img
+              data-aspect-ratio="16:9"
+              data-query="woman holding perfume bottle floral background elegant"
+              src="https://storage.googleapis.com/banani-generated-images/generated-images/e2a659b5-db28-4972-901f-bf7e74e2291b.jpg"
+              alt="Para Ella"
+            />
+          </div>
+          <div class="collection-content">
+            <h3 class="collection-title">Para Ella</h3>
+            <div class="collection-link">
+              Explorar colección
+              <div
+                style="
+                  width: 16px;
+                  height: 16px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <iconify-icon
+                  icon="lucide:arrow-right"
+                  style="font-size: 16px; color: var(--primary)"
+                ></iconify-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="collection-card" data-media-type="banani-button">
+          <div class="collection-bg">
+            <img
+              data-aspect-ratio="16:9"
+              data-query="man in suit holding cologne bottle dark elegant"
+              src="https://storage.googleapis.com/banani-generated-images/generated-images/50926739-ad82-40c1-93c6-fac5e1e1c904.jpg"
+              alt="Para Él"
+            />
+          </div>
+          <div class="collection-content">
+            <h3 class="collection-title">Para Él</h3>
+            <div class="collection-link">
+              Explorar colección
+              <div
+                style="
+                  width: 16px;
+                  height: 16px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <iconify-icon
+                  icon="lucide:arrow-right"
+                  style="font-size: 16px; color: var(--primary)"
+                ></iconify-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>JUNE'S STORE</h3>
+                <p>Redefiniendo el lujo y la elegancia a través de aromas únicos que
+              perduran en la memoria.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Comprar</h4>
+                <div class="footer-links">
+                    <a class="footer-link" href="" >Mujer</a>
+                    <a class="footer-link" href="" >Hombre</a>
+                    <a class="footer-link" href="" >Unisex</a>
+                    <a class="footer-link" href="" >Sets de Regalo</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Ayuda</h4>
+                <div class="footer-links">
+                    <a class="footer-link" href="" >Envíos y Devoluciones</a>
+                    <a class="footer-link" href="" >Preguntas Frecuentes</a>
+                    <a class="footer-link" href="" >Contacto</a>
+                    <a class="footer-link" href="" >Seguimiento de Pedido</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <div class="footer-links">
+                    <a class="footer-link" href="" >Privacidad</a>
+                    <a class="footer-link" href="" >Términos de Uso</a>
+                    <a class="footer-link" href="" >Cookies</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <div>© 2025 JUNE'S Parfums. Todos los derechos reservados.</div>
+          <div style="display: flex; gap: 16px">
+            <div
+              style="
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:instagram"
+                style="font-size: 20px; color: white"
+              ></iconify-icon>
+            </div>
+            <div
+              style="
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:facebook"
+                style="font-size: 20px; color: white"
+              ></iconify-icon>
+            </div>
+            <div
+              style="
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <iconify-icon
+                icon="lucide:twitter"
+                style="font-size: 20px; color: white"
+              ></iconify-icon>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="js/diseño.js"></script>
+</body>
+</html>
